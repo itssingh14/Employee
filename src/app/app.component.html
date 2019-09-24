@@ -1,0 +1,16 @@
+<h1>Employee Management System</h1>
+<app-emp-details></app-emp-details>
+<app-emp-list></app-emp-list>
+<input 
+    type="text" 
+    placeholder="ID" 
+    [(ngModel)] = "id">
+<input 
+    type="text" 
+    placeholder="Name" 
+    [(ngModel)] = "name">
+<input 
+    type="text" 
+    placeholder="Department" 
+    [(ngModel)] = "dept">
+<input type="button" value="submit" (click) = "ad()">
